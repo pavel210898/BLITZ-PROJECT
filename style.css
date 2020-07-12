@@ -1,0 +1,317 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+  text-transform: uppercase;
+}
+a:hover{
+  text-decoration: none;
+}
+/*Welcome Section Css Start*/
+
+.welcome{
+      background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+li.nav-item {
+    margin-right: 15px;
+    padding: 0px 5px;
+}
+li.nav-item:last-child{
+  margin-right: 0px!important;
+}
+.disableNAv{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    color: #bcbcbc;
+    font-weight: 400;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.enableNAv{
+   font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #474747;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.toggleIcon{
+      font-weight: 900;
+    color: white;
+    background-color: black;
+    padding: 5px;
+
+}
+.container-fluid.extraCssShade {
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 10px;
+    position: relative;
+}
+
+.container-fluid.extraCssShade::after {
+    content: "";
+background-color: #e7e7e7;
+padding: 10px;
+position: absolute;
+right: 50%;
+transform: rotate(45deg);
+}
+.rowCarosel{
+  margin-top: 30px;
+}
+/*Welcome Section Css end*/
+
+
+/*Service Section Css Start*/
+.service{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.colService{
+  text-align: center;
+  border: 0px;
+}
+
+.colService img{
+  margin-right: 30px;
+  padding-top:7px;
+}
+.colService h5{
+    color: #464646;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-right: 40px;
+  }
+.colService p{
+  color: #717171;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.cardBtn p{
+  color: #474747;
+    font-family: 'Bebas Neue', cursive;    
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+
+}
+/*Service Section Css End*/
+
+
+/*Latest Work Section Css Start*/
+.latestWork{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 25px;  
+}
+.latestWorkHeadingContainer{
+  background-color: #cccccc45;
+}
+.latestWorkHeadingRow{
+  text-align: center;
+}
+
+.latestWorkHeading span{
+   color: #474747;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: white;
+    padding: 1% 3%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.latestWorkCard{
+  text-align: left;
+  background-color: white;
+  font-size: 18px;
+  border: 0px;
+}
+.latestWorkCard h5{
+      font-family: 'Bebas Neue', cursive;
+color: #414141;
+letter-spacing: 1px;
+    font-weight: 400;
+
+    font-size: 18px;
+}
+
+.CardP{
+    font-family: 'Titillium Web', sans-serif;
+
+    font-weight: 300;
+
+    font-size: 13px;
+}
+
+/*Latest Work Section Css End*/
+
+
+
+/* Footer Section Css Start*/
+
+.footer{
+  background-color: #f7f7f7;
+    width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+.footerText p{
+    color: #9b9b9b;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0px;
+
+}
+.floatFooterRight{
+  text-align: right;
+}
+.floatFooterLeft{
+  text-align: left;
+
+}
+.footerText a{
+  color: #6e6e6e;
+  font-weight: bold;
+}
+/* Footer Section Css End*/
+
+
+
+/*Media Query Starts*/
+@media (max-width: 575.98px) {
+
+/*Welcome Section Css Start*/
+.welcome{
+  padding: 0px;
+}
+.rowCarosel{
+  margin-top: 10px;
+}
+
+/*Welcome Section Css End*/
+
+/*Service Section Css Start*/
+
+.colService{
+  width: 100%!important;
+}
+.colService h5{
+font-size: 18px;
+padding-right: 20px;
+}
+.colService p{
+font-size: 12px;
+}
+.colService img {
+    margin-right: 15px;
+    padding-top: 0px;
+}
+/*Service Section Css End*/
+
+
+
+/*Latest Work Section Css Start*/
+.latestWorkHeading span {
+  font-size: 20px;
+}
+
+.latestWorkCard {
+    width: 100%!important;
+
+}
+/*Latest Work Section Css End*/
+
+
+ /* Footer Section Css Start*/
+
+.floatFooterRight{
+  text-align: center;
+}
+.floatFooterLeft{
+  text-align: center;
+
+}
+.footerText p{
+  margin-bottom: 10px;
+  font-size: 10px;
+  }
+ /* Footer Section Css End*/
+
+}
+
+
+@media (max-width: 575.98px) { 
+
+/*Welcome Section Css Start*/
+.welcome{
+  padding: 0px;
+}
+.rowCarosel{
+  margin-top: 10px;
+}
+.colService h5 {
+    font-size: 18px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+/*Welcome Section Css End*/
+
+/*Service Section Css Start*/
+
+.colService{
+  width: 100%!important;
+}
+
+/*Service Section Css End*/
+
+
+
+/*Latest Work Section Css Start*/
+.latestWorkHeading span {
+  font-size: 20px;
+}
+
+.latestWorkCard {
+    width: 100%!important;
+
+}
+/*Latest Work Section Css End*/
+
+
+ /* Footer Section Css Start*/
+
+.floatFooterRight{
+  text-align: center;
+}
+.floatFooterLeft{
+  text-align: center;
+
+}
+.footerText p{
+  margin-bottom: 10px;
+  font-size: 10px;
+  }
+ /* Footer Section Css End*/
+
+}
+/*Media Query Ends*/
